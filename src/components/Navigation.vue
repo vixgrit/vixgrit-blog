@@ -2,11 +2,11 @@
   <nav class="nav">
   <div class="nav-left">
     <a class="nav-item">
-      <h1 class="title is-4">vixgrit</h1>
+      <h1 class="title is-4">@vixgrit</h1>
     </a>
   </div>
 
-  <div class="nav-center">
+  <div class="nav-right">
     <a class="nav-item">
       <span class="icon">
         <i class="fa fa-github"></i>
@@ -34,32 +34,17 @@
       Home
     </a>
     <a class="nav-item">
-      Documentation
+      About
     </a>
     <a class="nav-item">
       Blog
     </a>
-
-    <div class="nav-item">
-      <div class="field is-grouped">
-        <p class="control">
-          <a class="button" >
-            <span class="icon">
-              <i class="fa fa-twitter"></i>
-            </span>
-            <span>Tweet</span>
-          </a>
-        </p>
-        <p class="control">
-          <a class="button is-primary">
-            <span class="icon">
-              <i class="fa fa-download"></i>
-            </span>
-            <span>Download</span>
-          </a>
-        </p>
-      </div>
-    </div>
+    <a class="nav-item">
+      Projects
+    </a>
+    <a class="nav-item">
+      Contact
+    </a>
   </div>
 </nav>
 </template>
