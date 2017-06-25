@@ -1,12 +1,17 @@
 <template>
-  <Navigation></Navigation>
+  <div>
+    <Navigation></Navigation>
+    <GitChart></GitChart>
+  </div>
 </template>
 
 <script>
   import Navigation from './components/Navigation.vue';
+  import GitChart from './components/GitChart.vue';
   export default {
     components: {
-      Navigation
+      Navigation,
+      GitChart
     }
   }
 </script>
